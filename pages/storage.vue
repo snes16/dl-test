@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { ref } from 'vue';
-import { useStore } from '@/stores/store';
+import { useStore } from '~/stores/store';
 
 const store = useStore();
 const searchQuery = ref('');
@@ -14,16 +14,16 @@ const products = ref([
     description: 'Описание товара...',
     price: 11000,
     quantity: 3,
-    image: '/images/wood.jpg',
+    image: '/images/wood.svg',
   },
   {
     id: 2,
-    title: 'Пиломатериалы брус доска',
+    title: 'Пиломатериалы сруб доска',
     type: 'Прямая продажа',
     description: 'Описание товара...',
     price: 11000,
     quantity: 3,
-    image: '/images/wood.jpg',
+    image: '/images/wood.svg',
   },
 ]);
 
