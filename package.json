@@ -12,6 +12,7 @@
   "dependencies": {
     "nuxt": "^3.13.0",
     "pinia": "^2.3.0",
+    "sass": "^1.83.1",
     "vue": "latest",
     "vue-router": "latest"
   }

@@ -14,7 +14,7 @@ const products = ref([
     description: 'Описание товара...',
     price: 11000,
     quantity: 3,
-    image: '/images/wood.svg',
+    image: '~/images/wood.svg',
   },
   {
     id: 2,
