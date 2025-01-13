@@ -1,0 +1,29 @@
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+
+  &--primary {
+    background-color: #1abc9c;
+    color: white;
+    border-color: #16a085;
+
+    &:hover {
+      background-color: #16a085;
+    }
+  }
+
+  &--secondary {
+    background-color: white;
+    color: #1abc9c;
+    border-color: #1abc9c;
+
+    &:hover {
+      background-color: #f4f4f4;
+    }
+  }
+}
